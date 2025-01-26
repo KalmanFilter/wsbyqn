@@ -1,5 +1,5 @@
 ﻿akshare
-Sentiment
+cnsenti 
 OpenAI
 streamlit
 yfinance
