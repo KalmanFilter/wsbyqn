@@ -1,0 +1,9 @@
+﻿akshare
+Sentiment
+OpenAI
+streamlit
+yfinance
+pandas-datareader
+prophet
+ 
+
