@@ -1,4 +1,5 @@
 ﻿akshare
+borax
 cnsenti 
 OpenAI
 streamlit
