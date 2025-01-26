@@ -3,8 +3,5 @@ borax
 cnsenti 
 OpenAI
 streamlit
-yfinance
-pandas-datareader
-prophet
- 
+
 
