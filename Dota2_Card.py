@@ -21,8 +21,8 @@ with card:
     
     with st.expander(':one: _ :raised_hand_with_fingers_splayed: _推推卡 '):
         st.markdown(' - 请先指定使用对象，再roll3;')
-        st.markdown(' - 若对自己使用，则自己点数 + 结果×10;')
-        st.markdown(' - 若对他人使用，则对方点数 - 结果×10.')
+        st.markdown(' - 若对自己使用，则自己点数 - 结果×10;')
+        st.markdown(' - 若对他人使用，则对方点数 + 结果×10.')
         
     with st.expander(':two: _ :on: _沟壑卡 '):
         st.markdown('  - 使用后roll一次，可以选择≥或≤结果者重roll.')
