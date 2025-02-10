@@ -21,8 +21,8 @@ with card:
     
     with st.expander(':one: _ :raised_hand_with_fingers_splayed: _推推卡 '):
         st.markdown(' - 请先指定使用对象，再roll3;')
-        st.markdown(' - 若对自己使用，则自己点数 - 结果×10;')
-        st.markdown(' - 若对他人使用，则对方点数 + 结果×10.')
+        st.markdown(' - 若对自己使用，则自己点数 + 结果×10;')
+        st.markdown(' - 若对他人使用，则对方点数 - 结果×10.')
         
     with st.expander(':two: _ :on: _沟壑卡 '):
         st.markdown('  - 使用后roll一次，可以选择≥或≤结果者重roll.')
@@ -95,7 +95,7 @@ with buff:
     st.write('周BUFF，面向上周积分第一、第二。第一，roll 4；第二，roll 2.')
   
     p = '''
-    1. 「洗牌」，本周内使用，可将自己的某一种存量卡片兑换为积分。
+    1. 「洗牌」，本周内使用，可在兑换卡片后撤销三次兑换，重新换卡。
     2. 「精准」，本周可使用两次，使用后可指定自己roll点结果。
     3. 「奥术」，本周内不受“一轮3张卡”的限制。
     4. 「双倍」，本周内使用的所有卡片，可自定义选择是否使用第二次，使用后第一次仍效果有效。
