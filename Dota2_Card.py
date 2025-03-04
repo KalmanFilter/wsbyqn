@@ -1,19 +1,6 @@
 
 import streamlit as st
 
-st.markdown(':red[以下更新自:2月10日起生效：]')
-st.markdown(' - 上场Roll点，以数值结果更小者不上场;')
-st.markdown(' - 每位玩家每周第一次上线，须将全部积分兑换为卡片(暂仍为每张4分)，不得透支;')
-st.markdown(' - 每场最多合计使用3次卡（微光卡不计入该次数）,每种卡片你最多可以使用1次（刷新卡除外）;')
-st.markdown(' - 若单周从未参与游戏或roll点，减4分, 直至零分.')
-
-st.markdown(':red[此外：]')
-st.markdown(' - 存量积分仍可按现卡种正常兑换卡片;')
-st.markdown(' - 2月10日起将被停用的卡片：斩杀卡、混沌卡、梦境卡、相位卡、斩杀卡等;')
-st.markdown(' - 2月8日、9日，以上卡片仍可正常使用，2月10日失效清零;')
-st.markdown(' - 2月10日后未被停用的卡片可按新效果使用（包括升级的卡片）;')
-
-
 card, buff, version = st.tabs([':credit_card: 卡片说明',':fire: 周BUFF/DEBUFF', ':back: 版本变化'])
 
 with card:
