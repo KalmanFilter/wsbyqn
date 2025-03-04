@@ -21,8 +21,8 @@ with card:
     
     with st.expander(':one: _ :raised_hand_with_fingers_splayed: _推推卡 '):
         st.markdown(' - 请先指定使用对象，再roll3;')
-        st.markdown(' - 若对自己使用，则自己点数 - 结果×10;')
-        st.markdown(' - 若对他人使用，则对方点数 + 结果×10.')
+        st.markdown(' - 若对自己使用，则自己点数 + 结果×10;')
+        st.markdown(' - 若对他人使用，则对方点数 - 结果×10.')
         
     with st.expander(':two: _ :on: _沟壑卡 '):
         st.markdown('  - 使用后roll一次，可以选择≥或≤结果者重roll.')
@@ -36,7 +36,7 @@ with card:
         
     with st.expander(':five: _ :u6307: _死指卡 '):
         st.markdown(' - 只能对别人使用;')
-        st.markdown(' - 使用后roll三次，若结果形成升序或降序，这时你可指定一人锁定登场.')
+        st.markdown(' - 使用后roll三次，若结果形成升序或降序，你可指定一人锁定登场，并且使用者自身点数-50.')
     
     with st.expander(':six: _ :cyclone: _刷新卡 '):
         st.markdown(' - 只能对自己使用;')
@@ -44,7 +44,7 @@ with card:
         
     with st.expander(':seven: _ :ice_cube: _冰封卡 '):
         st.markdown(' - 只能对别人使用;')
-        st.markdown(' - 使用后roll 5，如果结果为单数，这时你可指定目前场上的一人锁定登场.')
+        st.markdown(' - 使用后roll 5，如果结果为单数，你可指定目前场上的一人锁定登场，并且使用者自身点数-30.')
         
     with st.expander(':eight: _ :lab_coat: _微光卡 '):
         st.markdown(' - 只能对别人使用;')
@@ -114,6 +114,15 @@ with buff:
 with version:
     
     st.divider()
+    st.subheader('1.1.2')
+    st.text('2025/3/4')
+    p = '''
+    - 更新死指卡，原卡描述：使用后roll三次，若结果形成升序或降序，这时你可指定一人锁定登场.
+    - 更新冰封卡，原卡描述：使用后roll 5，如果结果为单数，这时你可指定目前场上的一人锁定登场.
+    '''
+    st.markdown(p)
+    
+    st.divider()
     st.subheader('1.1.1')
     st.text('2025/2/10')
     p = '''
@@ -155,4 +164,3 @@ with version:
     - 交接前任会长制定规则、存量道具，并沿用。
     '''
     st.markdown(p)
-
