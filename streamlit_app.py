@@ -1,4 +1,4 @@
-﻿
+
 import streamlit as st
 
 st.set_page_config(
@@ -11,6 +11,8 @@ pages = {
     "Function":[
         st.Page("news.py", title = 'News',),
         st.Page("chat.py", title = 'Chat'),
+        st.Page("Draw_lots.py", title = 'Draw_Lots'),
+        
         ],
 
     "DOTA2": [
